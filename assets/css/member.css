@@ -488,7 +488,7 @@ section {
     position: relative;
     background-color: rgba(68, 118, 195, 0.5);
     background-image: url("../img/member-back.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .events .card-img {
@@ -572,13 +572,24 @@ section {
     color: #4476c3;
 }
 
-.events .info-card-body .info-card-content h5 {
-    margin-left: 30px;
-    margin-top: 20px;
+.events .info-card-body .info-card-content h6 {
+    margin: 20px 20px 0 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
 }
 
-.events .info-card-body .info-card-content i {
-    color: #4476c3;
+.events .info-card-body .info-card-content h5 {
+    margin: 7px 20px 0 20px;
+}
+
+.events .info-card-body .info-card-content ul li {
+    margin: 15px 20px 0 20px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
 }
 
 .events .info-card-body .info-card-content a {
