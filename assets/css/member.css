@@ -497,7 +497,7 @@ section {
     border-radius: 125px;
     overflow: hidden;
     z-index: 10;
-    margin-left: 40px;
+    margin: 0 auto;
 }
 
 .events .card-img img {
@@ -529,7 +529,7 @@ section {
 }
 
 .events .card-body .social {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -771,23 +771,22 @@ section {
     color: #4476c3;
 }
 
-#footer .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #4476c3;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
+#footer .social-links {
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: center;
-    width: 36px;
-    height: 36px;
+}
+
+#footer .social-links a {
+    color: #48576e;
     transition: 0.3s;
 }
 
 #footer .social-links a:hover {
-    background: #4476c3;
-    color: #fff;
-    text-decoration: none;
+    color: #4476c3;
+}
+
+#footer .social-links i {
+    font-size: 30px;
+    margin: 0 5px;
 }
