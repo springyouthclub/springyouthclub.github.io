@@ -574,19 +574,21 @@ section {
   font-size: 26px;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
+.about .content .info-card-content h6 {
+  margin: 20px 20px 0 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #848484;
+  font-family: "Poppins", sans-serif;
 }
 
-.about .content ul li {
-  padding-bottom: 10px;
+.about .content .info-card-content h5 {
+  margin: 7px 20px 0 100px;
 }
 
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #4476c3;
+.about .content .info-card-content a {
+  font-weight: bold;
 }
 
 .about .content .learn-more-btn {
@@ -1576,23 +1578,22 @@ section {
   color: #4476c3;
 }
 
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #4476c3;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
+#footer .social-links {
+  margin-top: 10px;
+  margin-bottom: 15px;
   text-align: center;
-  width: 36px;
-  height: 36px;
+}
+
+#footer .social-links a {
+  color: #48576e;
   transition: 0.3s;
 }
 
 #footer .social-links a:hover {
-  background: #4476c3;
-  color: #fff;
-  text-decoration: none;
+  color: #4476c3;
+}
+
+#footer .social-links i {
+  font-size: 30px;
+  margin: 0 5px;
 }
