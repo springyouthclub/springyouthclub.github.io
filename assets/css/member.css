@@ -583,6 +583,7 @@ section {
 
 .events .info-card-body .info-card-content h5 {
     margin: 7px 20px 0 20px;
+    word-wrap: break-word;
 }
 
 .events .info-card-body .info-card-content ul li {
