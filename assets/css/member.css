@@ -501,9 +501,8 @@ section {
 }
 
 .events .card-img img {
-    max-width: 175%;
-    margin-top: -67px;
-    margin-left: -94px;
+    max-width: 250px;
+    max-height: 250px;
     transition: all 0.3s ease-in-out;
 }
 
