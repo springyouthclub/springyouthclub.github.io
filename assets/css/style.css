@@ -821,6 +821,16 @@ section {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eef0ef;
+  border-top-left-radius: 70px;
+}
+
+.trainers .member .card-img {
+  /*max-width: 250px;*/
+  max-height: 398px;
+  border-top-left-radius: 70px;
+  overflow: hidden;
+  z-index: 10;
+  margin: 0 auto;
 }
 
 .trainers .member img {
