@@ -593,7 +593,6 @@ section {
 
 .profile:hover img,
 .profile:focus img {
-    filter: grayscale(0);
     transform: scale(1.05) rotate(1deg);
 }
 
